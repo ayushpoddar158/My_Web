@@ -1,0 +1,11 @@
+.card-body{
+    background-color: rgb(66, 66, 67) ;
+    border-radius: 10px;
+}
+.card-body .card-title{
+    
+    color: rgb(240, 157, 1) !important;
+}
+.card-body .card-data{
+    color: white;
+}

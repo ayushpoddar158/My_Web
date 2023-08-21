@@ -1,0 +1,87 @@
+import React from 'react'
+import '../Styles/Showtemp.css'
+
+const ShowTemp = ({data}) => {
+  return (
+    <>
+         <div class="container my-5">
+            <div class="row mb-2">
+                <div class="col-md-4">
+                    <div class="card">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Description</h5>
+                            <p class="card-data">{data.description}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Temp</h5>
+                            <p class="card-data">{data.temp}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Temp Min</h5>
+                            <p class="card-data">{data.temp_min}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-md-4">
+                    <div class="card">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Temp Max</h5>
+                            <p class="card-data">{data.temp_max}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Humidity</h5>
+                            <p class="card-data">{data.humidity}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Sunrise</h5>
+                            <p class="card-data">{data.sunrise}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-md-4">
+                    <div class="card">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Sunset</h5>
+                            <p class="card-data">{data.sunset}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Country</h5>
+                            <p class="card-data">{data.country}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </>
+  )
+}
+
+export default ShowTemp

@@ -1,0 +1,30 @@
+.mainAbout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    padding: 10px;
+    /* background-color: darkblue; */
+}
+.innerabout{
+    background-color: rgb(66, 66, 67);
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    min-height: 50vh;
+    width: 50vw;
+    padding: 10px;
+    
+}
+.mainAbout p{
+    padding: 20px;
+    /* width: 40vw; */
+}
+.mainAbout h3{
+    padding: 5px;
+    color: rgb(240, 157, 1);
+}

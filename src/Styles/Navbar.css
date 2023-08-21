@@ -1,0 +1,10 @@
+.navbar{
+    position: sticky !important;
+    top: 0px;
+}
+.navbar-brand{
+    color: rgb(240, 157, 1) !important;
+}
+.navbar .nav-link{
+    color: rgb(66, 66, 67)  !important;
+}

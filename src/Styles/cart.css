@@ -1,0 +1,72 @@
+.maindivcart{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    min-height: 40vh;
+    /* margin-top: 5%; */
+    
+}
+.maindivcart h3{
+    padding: 20px;
+    margin: 30px;
+    color: rgb(240, 157, 1) !important;
+    border-bottom: 2px solid rgb(66, 66, 67) ;
+}
+.maincartinnerdiv{
+    min-width: 50%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    
+}
+.maindivcart{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.eachitem{
+    margin: 10px;
+    background-color: rgb(66, 66, 67) ;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.eachitem div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eachitem .div1{
+    /* background-color: red; */
+    width: 40%;
+
+}
+.eachitem .div2{
+    /* background-color: red; */
+    width: 10%;
+}
+.eachitem .div3{
+    /* background-color: red; */
+    width: 30%;
+}
+.eachitem button{
+    color: white !important;
+    background-color: rgb(240, 157, 1) !important;
+    border: none;
+}
+.eachitem button:hover{
+   background-color: white !important;
+    color: rgb(240, 157, 1) !important;
+    border: none;
+}
+.cardamount h4 span{
+    color: rgb(240, 157, 1) !important;
+    margin-left: 2px;
+}

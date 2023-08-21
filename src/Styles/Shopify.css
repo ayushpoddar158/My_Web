@@ -1,0 +1,41 @@
+.shopifymain{
+    display: flex;
+    /* background-color: green;/ */
+    justify-content: space-around;
+    margin-top: 10px;
+    width: 98vw;
+    margin: auto;
+}
+.innershopifyside1{
+    /* background-color: red; */
+    margin-top: 20vh;
+}
+.shopifymain h3{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    padding: 10px;
+    /* margin: 10px; */
+    color: rgb(240, 157, 1) !important;
+    position: fixed;
+    background-color: rgb(66, 66, 67) ;
+    padding: 20px;
+    
+}
+.innershopifyside2{
+    margin: 20px !important;
+    
+    /* background-color: red; */
+}
+.innershopifyside2 button{
+    margin-top: 30vh;
+    right: 40px;
+    position: fixed;
+    color: white !important;
+    background-color: rgb(240, 157, 1) !important;
+    border: none;
+    padding: 10px;
+}
+.innershopifyside2 button:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,21 @@
+.innerconatinerweather{
+    display: flex;
+    
+}
+.weatherdata{
+    /* background-color: red; */
+    color:rgb(240, 157, 1) !important ;
+}
+.weathermainContainer h2{
+    margin: 25px;
+    color:  rgb(240, 157, 1) !important;
+ 
+}
+.weathermainContainer button{
+   background-color: rgb(240, 157, 1) !important;
+   color: white;
+   border: none;
+}
+.weathermainContainer button:hover{
+transform: scale(1.1);
+}

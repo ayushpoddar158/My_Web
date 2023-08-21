@@ -1,0 +1,44 @@
+.mainform{
+    /* background-color: red; */
+    /* width: 96vw; */
+    /* margin: auto; */
+    margin-top: 40px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.innnerform{
+    background-color: rgb(66, 66, 67);
+    width: 50vw;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+}
+.innnerform h3{
+    color: rgb(240, 157, 1);
+}
+.innnerform form{
+    width: 70%;
+    
+}
+.innnerform form{
+    color: white;
+}
+.innnerform .form-group{
+margin-bottom: 10px;
+}
+.innnerform button{
+    color: white !important;
+    background-color:rgb(240, 157, 1) !important;
+    border: none; 
+}
+.innnerform button:hover{
+    background-color: white !important;
+    color:rgb(240, 157, 1) !important;
+}
